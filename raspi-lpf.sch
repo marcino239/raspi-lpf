@@ -1,0 +1,238 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P1
+U 1 1 57A7DA4F
+P 2450 3400
+F 0 "P1" H 2450 3550 50  0000 C CNN
+F 1 "RASPI Sig=Pin7, GND=Pin9" V 2550 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2450 3400 50  0001 C CNN
+F 3 "" H 2450 3400 50  0000 C CNN
+	1    2450 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 57A7DADB
+P 5250 3400
+F 0 "P2" H 5250 3550 50  0000 C CNN
+F 1 "ANT" V 5350 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5250 3400 50  0001 C CNN
+F 3 "" H 5250 3400 50  0000 C CNN
+	1    5250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 57A7DE46
+P 3050 3200
+F 0 "C1" H 3060 3270 50  0000 L CNN
+F 1 "220P" H 3060 3120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3050 3200 50  0001 C CNN
+F 3 "" H 3050 3200 50  0000 C CNN
+	1    3050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 57A7DF21
+P 3050 3600
+F 0 "C2" H 3060 3670 50  0000 L CNN
+F 1 "680P" H 3060 3520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3050 3600 50  0001 C CNN
+F 3 "" H 3050 3600 50  0000 C CNN
+	1    3050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 57A7DF55
+P 3500 3000
+F 0 "L1" V 3450 3000 50  0000 C CNN
+F 1 "768N" V 3600 3000 50  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 3500 3000 50  0001 C CNN
+F 3 "" H 3500 3000 50  0000 C CNN
+	1    3500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 57A7DFDB
+P 4200 3000
+F 0 "L2" V 4150 3000 50  0000 C CNN
+F 1 "768N" V 4300 3000 50  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 4200 3000 50  0001 C CNN
+F 3 "" H 4200 3000 50  0000 C CNN
+	1    4200 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 57A7E033
+P 3850 3600
+F 0 "C3" H 3860 3670 50  0000 L CNN
+F 1 "1500P" H 3860 3520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3850 3600 50  0001 C CNN
+F 3 "" H 3850 3600 50  0000 C CNN
+	1    3850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 57A7E096
+P 4650 3200
+F 0 "C4" H 4660 3270 50  0000 L CNN
+F 1 "220P" H 4660 3120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4650 3200 50  0001 C CNN
+F 3 "" H 4650 3200 50  0000 C CNN
+	1    4650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C5
+U 1 1 57A7E126
+P 4650 3600
+F 0 "C5" H 4660 3670 50  0000 L CNN
+F 1 "680P" H 4660 3520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4650 3600 50  0001 C CNN
+F 3 "" H 4650 3600 50  0000 C CNN
+	1    4650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 57A7E1B7
+P 2700 3800
+F 0 "#PWR01" H 2700 3550 50  0001 C CNN
+F 1 "GND" H 2700 3650 50  0000 C CNN
+F 2 "" H 2700 3800 50  0000 C CNN
+F 3 "" H 2700 3800 50  0000 C CNN
+	1    2700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 57A7E1E4
+P 3050 3800
+F 0 "#PWR02" H 3050 3550 50  0001 C CNN
+F 1 "GND" H 3050 3650 50  0000 C CNN
+F 2 "" H 3050 3800 50  0000 C CNN
+F 3 "" H 3050 3800 50  0000 C CNN
+	1    3050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 57A7E20A
+P 3850 3800
+F 0 "#PWR03" H 3850 3550 50  0001 C CNN
+F 1 "GND" H 3850 3650 50  0000 C CNN
+F 2 "" H 3850 3800 50  0000 C CNN
+F 3 "" H 3850 3800 50  0000 C CNN
+	1    3850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 57A7E230
+P 4650 3800
+F 0 "#PWR04" H 4650 3550 50  0001 C CNN
+F 1 "GND" H 4650 3650 50  0000 C CNN
+F 2 "" H 4650 3800 50  0000 C CNN
+F 3 "" H 4650 3800 50  0000 C CNN
+	1    4650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 57A7E256
+P 5000 3800
+F 0 "#PWR05" H 5000 3550 50  0001 C CNN
+F 1 "GND" H 5000 3650 50  0000 C CNN
+F 2 "" H 5000 3800 50  0000 C CNN
+F 3 "" H 5000 3800 50  0000 C CNN
+	1    5000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3500 3050 3300
+Wire Wire Line
+	3050 3100 3050 3000
+Wire Wire Line
+	3050 3000 3200 3000
+Wire Wire Line
+	3800 3000 3900 3000
+Wire Wire Line
+	3850 3000 3850 3500
+Connection ~ 3850 3000
+Wire Wire Line
+	3850 3800 3850 3700
+Wire Wire Line
+	3050 3800 3050 3700
+Wire Wire Line
+	2650 3450 2700 3450
+Wire Wire Line
+	2700 3450 2700 3800
+Wire Wire Line
+	2650 3350 3050 3350
+Connection ~ 3050 3350
+Wire Wire Line
+	4650 3300 4650 3500
+Wire Wire Line
+	4650 3700 4650 3800
+Wire Wire Line
+	5000 3800 5000 3450
+Wire Wire Line
+	5000 3450 5050 3450
+Wire Wire Line
+	4650 3000 4650 3100
+Wire Wire Line
+	4500 3000 4650 3000
+Wire Wire Line
+	5050 3350 4650 3350
+Connection ~ 4650 3350
+Text Label 2950 2750 0    60   ~ 0
+L1,L2-16turns_on_T37_6
+$EndSCHEMATC
